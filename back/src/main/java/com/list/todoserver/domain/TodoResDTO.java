@@ -6,8 +6,6 @@ import org.hibernate.annotations.DynamicInsert;
 
 import java.time.LocalDate;
 
-// DB 등록할 때 사용
-
 @Getter
 @NoArgsConstructor
 @DynamicInsert

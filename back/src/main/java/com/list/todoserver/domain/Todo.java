@@ -7,21 +7,13 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.time.LocalDate;
 
-/*
-    Entity class
-    DB에 저장하기 위해 유저가 정의한 클래스, domain
-    실제 DB 테이블과 매칭
-    setter 금지
-    controller, service에서 사용x
-*/
-
 @Getter
-@NoArgsConstructor // 기본생성자 자동 생성
-@Entity // 테이블과 링크될 클래스임을 명시
+@NoArgsConstructor 
+@Entity 
 public class Todo {
 
-    @Id // PK 필드 명시
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // PK 생성 규칙, auto_increment
+    @Id 
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(length=200, nullable = false)
