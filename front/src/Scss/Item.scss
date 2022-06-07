@@ -1,0 +1,40 @@
+@use 'Common';
+
+.Item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: Common.$border;
+    padding: 7px 10px 5px;
+    cursor: pointer;
+
+    &-State {
+        display: flex;
+        width: 100%;
+
+        &-IsCompleted {
+            margin-right: 10px;
+        }
+        
+        &-Input {
+            display: block;
+            min-width: 95%;
+            border: none;
+            background: none;
+            font-size: 1rem;
+        }
+    }
+
+    &-Manage {
+        min-width: 44px;
+        text-align: right;
+
+        &-Icon {
+            margin-right: 5px;
+        }
+    }
+}
+
+input:focus {
+    outline: none;
+}

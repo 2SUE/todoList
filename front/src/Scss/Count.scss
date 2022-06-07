@@ -1,0 +1,12 @@
+@use 'Common';
+
+.count {
+    width: 100%;
+    padding: 8px 10px 6px;
+    border-top: Common.$border;
+    text-align: center;
+
+    span {
+        color: Common.$point-color;
+    }
+}

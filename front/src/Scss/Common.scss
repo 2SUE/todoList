@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$bg-color: #f7f7f7;
+$text-color: #333;
+$point-color: #e60000;
+$border: 1px solid $text-color;
+
+@mixin flex-option() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'GmarketSansMedium';
+    color: $text-color;
+}
+
+body {
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+}
+
+.container {
+    @include flex-option();
+    flex-direction: column;
+    background: #dddddd;
+    width: 100vw;
+    height: 100vh;
+}
+
+.topHeader {
+    width: 600px;
+    max-width: 80vw;
+    padding-bottom: 2px;
+    text-align: right;
+    span {
+        color: $point-color;
+        font-family: 'GmarketSansMedium';
+    }
+}
+
+.listContainer {
+    width: 600px;
+    max-width: 80vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background: $bg-color;
+    border: $border;
+}
+
+.bottomHeader {
+    text-align: center;
+    padding: 15px;
+    border-bottom: $border;
+    font-family: 'GmarketSansMedium';
+    font-size: 1.3rem;
+    background: $point-color;
+    color: $bg-color;
+}
