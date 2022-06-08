@@ -1,4 +1,4 @@
-### TODO LIST
+### TODO LIST Preview
 
 ![img](https://blog.kakaocdn.net/dn/dqQ6ML/btrEapOTt8L/M4dENkDQEKQKPx7eTTuLdk/img.gif)
 
@@ -14,3 +14,6 @@
 ![JPA](https://img.shields.io/badge/JPA-%2368BC71.svg?style=for-the-badge&logo=JPA&logoColor=white)
 ![Lombok](https://img.shields.io/badge/Lombok-%23b91d2d.svg?style=for-the-badge&logo=Lombok&logoColor=%2320232a)
 ![MariaDB](https://img.shields.io/badge/MariaDB-%2300f.svg?style=for-the-badge&logo=MariaDB&logoColor=white)
+
+### DB
+![img](https://blog.kakaocdn.net/dn/6OVMy/btrEiaYcBUu/UjvjqI9fdQvkZtqMDY1LJ0/img.png)
